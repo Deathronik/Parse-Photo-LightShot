@@ -38,7 +38,7 @@ def parse_photo():
         except FileExistsError:
             None
 
-        filepath = os.path.join('C:/Users/Deathronik/Desktop/Learn/Learn_python/parse_photo_LightShot/img', file_name)
+        filepath = os.path.join('./img', file_name)
 
         img = scraper.get(img_link)
         out = open(filepath, "wb")
