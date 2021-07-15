@@ -1,2 +1,2 @@
 # Parse-Photo-LightShot
-Parse Photo from LightShot on Python
+Parser Photo from LightShot on Python
